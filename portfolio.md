@@ -1,5 +1,39 @@
 # public findings
 
+## 2023-04 Teller (Won contest)
+
+### last repayments are calculated incorrectly for "irregular" loan durations
+Medium, in report
+- https://github.com/sherlock-audit/2023-03-teller-judging/issues/328
+
+### due date and defaulting doesn't align
+Medium
+- https://github.com/sherlock-audit/2023-03-teller-judging/issues/325
+
+### bids can be created against markets that doesn't exist
+Medium, in report
+- https://github.com/sherlock-audit/2023-03-teller-judging/issues/323
+
+### `LenderCommitmentForwarder::updateCommitment` allows lender to be changed
+High
+- https://github.com/sherlock-audit/2023-03-teller-judging/issues/321
+
+### market owner can front run bids and lower default duration
+Medium
+- https://github.com/sherlock-audit/2023-03-teller-judging/issues/320
+
+### market owner and protocol can game borrowers
+Medium
+- https://github.com/sherlock-audit/2023-03-teller-judging/issues/319
+
+### defaulting doesn't change the state of the loan
+Medium, in report
+- https://github.com/sherlock-audit/2023-03-teller-judging/issues/317
+
+### `CollateralManager::commitCollateral` has no access control
+High
+- https://github.com/sherlock-audit/2023-03-teller-judging/issues/316
+
 ## 2023-03 Y2K
 
 ### winnings for an epoch is lost when rolling over
