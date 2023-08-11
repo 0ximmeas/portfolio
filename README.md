@@ -1,5 +1,19 @@
 # public findings
 
+## 2023-05 arrakis
+
+
+| Severity | Number |
+| --- | --- |
+| Medium | 2 |
+
+### Issues
+
+| title | severity | comments |
+| --- | --- | --- |
+| [changing `managerFeeBPS` can cause unfair shares in pool](https://github.com/sherlock-audit/2023-06-arrakis-judging/issues/174) | Medium | |
+| [repeated rebalances lets an operator steal funds](https://github.com/sherlock-audit/2023-06-arrakis-judging/issues/172) | Medium | |
+
 ## 2023-05 USSD
 
 | Severity | Number |
