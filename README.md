@@ -1,7 +1,38 @@
 # public findings
 
-## 2023-05 arrakis
+## Total contests won:
 
+- [Moonwell 2023-07](#2023-07-moonwell-won-contest)
+- [Chainlink 2023-07](#2023-07-chainlink-won-contest)
+- [Teller 2023-04](#2023-04-teller-won-contest)
+- [Inverse 2022-10](#2022-10-inverse-won-contest)
+
+## 2023-07 Moonwell (Won contest)
+
+| Severity | Number |
+| --- | --- |
+| Medium | 7 |
+
+### Issues
+
+Findings not yet public
+
+| title | severity | comments |
+| --- | --- | --- |
+| QA Report | - | Won best QA report |
+
+
+## 2023-07 Chainlink (Won contest)
+
+### Issues
+
+findings not public
+
+| title | severity | comments |
+| --- | --- | --- |
+| QA Report | - | Won best QA report |
+
+## 2023-05 arrakis
 
 | Severity | Number |
 | --- | --- |
