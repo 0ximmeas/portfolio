@@ -1,11 +1,27 @@
 # public findings
 
 ## Total contests won:
-
+- [Axelar 2023-07](#2023-07-axelar-won-contest)
 - [Moonwell 2023-07](#2023-07-moonwell-won-contest)
 - [Chainlink 2023-07](#2023-07-chainlink-won-contest)
 - [Teller 2023-04](#2023-04-teller-won-contest)
 - [Inverse 2022-10](#2022-10-inverse-won-contest)
+
+
+## 2023-07 Axelar (Won contest)
+
+| Severity | Number |
+| --- | --- |
+| High | 1 |
+| Medium | 5 |
+
+### Issues
+
+Findings not yet public
+
+| title | severity | comments |
+| --- | --- | --- |
+| QA Report | - | Won best QA report |
 
 ## 2023-07 Moonwell (Won contest)
 
@@ -19,7 +35,14 @@ Findings not yet public
 
 | title | severity | comments |
 | --- | --- | --- |
-| QA Report | - | Won best QA report |
+| [`fastTrackProposalExecution` doesn't check `intendedRecipient`](https://github.com/code-423n4/2023-07-moonwell-findings/issues/308) | in report | 
+| [Proposals which intend to send native tokens to target addresses can't be executed](https://github.com/code-423n4/2023-07-moonwell-findings/issues/268) | in report |
+| [`TemporalGovernor` can be bricked by `guardian`](https://github.com/code-423n4/2023-07-moonwell-findings/issues/314) | in report |
+| [only `guardian` can change `guardian`](https://github.com/code-423n4/2023-07-moonwell-findings/issues/315) | in report | 
+| [malicious `emissionToken` could poison rewards for a market](https://github.com/code-423n4/2023-07-moonwell-findings/issues/320) | in report | 
+| [Initial deploy won't succeed because of too high `initialMintAmount` for `USDC` market](https://github.com/code-423n4/2023-07-moonwell-findings/issues/143) | in report |
+| [`excuteProposal` can fail due to Wormhole guardian change](https://github.com/code-423n4/2023-07-moonwell-findings/issues/325) | in report |
+| [QA Report](https://github.com/code-423n4/2023-07-moonwell-findings/blob/main/data/immeas-Q.md) | - | Won best QA report |
 
 
 ## 2023-07 Chainlink (Won contest)
