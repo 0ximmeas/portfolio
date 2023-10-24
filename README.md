@@ -33,13 +33,13 @@ Findings not yet public
 
 | title | severity | comments |
 | --- | --- | --- |
-| [`fastTrackProposalExecution` doesn't check `intendedRecipient`](https://github.com/code-423n4/2023-07-moonwell-findings/issues/308) | Medum | in report | 
-| [Proposals which intend to send native tokens to target addresses can't be executed](https://github.com/code-423n4/2023-07-moonwell-findings/issues/268) | Medum |  |
-| [`TemporalGovernor` can be bricked by `guardian`](https://github.com/code-423n4/2023-07-moonwell-findings/issues/314) | Medum | in report |
-| [only `guardian` can change `guardian`](https://github.com/code-423n4/2023-07-moonwell-findings/issues/315) | Medum | in report | 
-| [malicious `emissionToken` could poison rewards for a market](https://github.com/code-423n4/2023-07-moonwell-findings/issues/320) | Medum | in report | 
-| [Initial deploy won't succeed because of too high `initialMintAmount` for `USDC` market](https://github.com/code-423n4/2023-07-moonwell-findings/issues/143) | Medum | |
-| [`excuteProposal` can fail due to Wormhole guardian change](https://github.com/code-423n4/2023-07-moonwell-findings/issues/325) | Medum | in report |
+| [`fastTrackProposalExecution` doesn't check `intendedRecipient`](https://github.com/code-423n4/2023-07-moonwell-findings/issues/308) | Medium | in report | 
+| [Proposals which intend to send native tokens to target addresses can't be executed](https://github.com/code-423n4/2023-07-moonwell-findings/issues/268) | Medium |  |
+| [`TemporalGovernor` can be bricked by `guardian`](https://github.com/code-423n4/2023-07-moonwell-findings/issues/314) | Medium | in report |
+| [only `guardian` can change `guardian`](https://github.com/code-423n4/2023-07-moonwell-findings/issues/315) | Medium | in report | 
+| [malicious `emissionToken` could poison rewards for a market](https://github.com/code-423n4/2023-07-moonwell-findings/issues/320) | Medium | in report | 
+| [Initial deploy won't succeed because of too high `initialMintAmount` for `USDC` market](https://github.com/code-423n4/2023-07-moonwell-findings/issues/143) | Medium | |
+| [`excuteProposal` can fail due to Wormhole guardian change](https://github.com/code-423n4/2023-07-moonwell-findings/issues/325) | Medium | in report |
 | [QA Report](https://github.com/code-423n4/2023-07-moonwell-findings/blob/main/data/immeas-Q.md) | - | Won best QA report |
 
 ## 2023-07 Chainlink (Won contest)
