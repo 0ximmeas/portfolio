@@ -7,6 +7,56 @@
 - [Teller 2023-04](#2023-04-teller-won-contest)
 - [Inverse 2022-10](#2022-10-inverse-won-contest)
 
+## 2023-10 OpenDollar
+
+| Severity | Number |
+| --- | --- |
+| High | 1 |
+| Medium | 2 |
+
+### Issues
+
+Findings not yet public
+
+
+## 2023-08 Chainlink
+
+| Severity | Number |
+| --- | --- |
+| Medium | 3 |
+
+
+### Issues
+
+findings not public
+
+## 2023-08 veRWA
+
+| Severity | Number |
+| --- | --- |
+| High | 3 |
+
+
+### Issues
+
+| title | severity | comments |
+| --- | --- | --- |
+| [lender only needs to hold position for one block to get rewards](https://github.com/code-423n4/2023-08-verwa-findings/issues/277) | High |  |
+| [user vote power stuck when gauge is removed](https://github.com/code-423n4/2023-08-verwa-findings/issues/279) | High | |
+| [delegated votes can be counted multiple times in `GaugeController`](https://github.com/code-423n4/2023-08-verwa-findings/issues/280) | High | |
+
+## 2023-08 Tangible
+
+| Severity | Number |
+| --- | --- |
+| High | 11 |
+| Medium | 6 |
+
+
+### Issues
+
+Findings not yet public
+
 
 ## 2023-07 Axelar (Won contest)
 
@@ -33,14 +83,15 @@ Findings not yet public
 
 | title | severity | comments |
 | --- | --- | --- |
-| [`fastTrackProposalExecution` doesn't check `intendedRecipient`](https://github.com/code-423n4/2023-07-moonwell-findings/issues/308) | Medium | in report | 
-| [Proposals which intend to send native tokens to target addresses can't be executed](https://github.com/code-423n4/2023-07-moonwell-findings/issues/268) | Medium |  |
-| [`TemporalGovernor` can be bricked by `guardian`](https://github.com/code-423n4/2023-07-moonwell-findings/issues/314) | Medium | in report |
-| [only `guardian` can change `guardian`](https://github.com/code-423n4/2023-07-moonwell-findings/issues/315) | Medium | in report | 
-| [malicious `emissionToken` could poison rewards for a market](https://github.com/code-423n4/2023-07-moonwell-findings/issues/320) | Medium | in report | 
-| [Initial deploy won't succeed because of too high `initialMintAmount` for `USDC` market](https://github.com/code-423n4/2023-07-moonwell-findings/issues/143) | Medium | |
-| [`excuteProposal` can fail due to Wormhole guardian change](https://github.com/code-423n4/2023-07-moonwell-findings/issues/325) | Medium | in report |
+| [`fastTrackProposalExecution` doesn't check `intendedRecipient`](https://github.com/code-423n4/2023-07-moonwell-findings/issues/308) | Medum | in report | 
+| [Proposals which intend to send native tokens to target addresses can't be executed](https://github.com/code-423n4/2023-07-moonwell-findings/issues/268) | Medum |  |
+| [`TemporalGovernor` can be bricked by `guardian`](https://github.com/code-423n4/2023-07-moonwell-findings/issues/314) | Medum | in report |
+| [only `guardian` can change `guardian`](https://github.com/code-423n4/2023-07-moonwell-findings/issues/315) | Medum | in report | 
+| [malicious `emissionToken` could poison rewards for a market](https://github.com/code-423n4/2023-07-moonwell-findings/issues/320) | Medum | in report | 
+| [Initial deploy won't succeed because of too high `initialMintAmount` for `USDC` market](https://github.com/code-423n4/2023-07-moonwell-findings/issues/143) | Medum | |
+| [`excuteProposal` can fail due to Wormhole guardian change](https://github.com/code-423n4/2023-07-moonwell-findings/issues/325) | Medum | in report |
 | [QA Report](https://github.com/code-423n4/2023-07-moonwell-findings/blob/main/data/immeas-Q.md) | - | Won best QA report |
+
 
 ## 2023-07 Chainlink (Won contest)
 
